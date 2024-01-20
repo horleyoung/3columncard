@@ -119,3 +119,23 @@ span {
         border-radius: 0px 0px 5px 5px;
     }
 }
+@media screen and (max-width: 880px) {
+    body{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box,
+    .box1,
+    .box2 {
+        position: relative;
+        left: 15px;
+        width: 60%;
+        height: 55vh;
+        border-radius: 5px 5px 0px 0px;
+
+    }
+    span {
+        top: 22%;
+    }
+}
